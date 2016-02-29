@@ -31,7 +31,7 @@
         		<?php
         			$site_logo	=	ae_get_option('site_logo');
         		?>
-        		<img src="<?php echo $site_logo['large'][0] ? $site_logo['large'][0] : get_template_directory_uri().'/img/logo.png' ?>" />
+        		<img src="<?php echo $site_logo['large'][0] ? $site_logo['large'][0] : get_template_directory_uri().'/img/logo-mobile.png' ?>" />
         	</a>
         </div>
     </div>

@@ -6,11 +6,11 @@
     $category_link   = !empty($story->story_category[0]) ? get_term_link( $story->story_category[0]->term_id, 'story_category' ) : '#';
 ?>
 <li <?php post_class( 'story-item' );?> data-id="<?php echo $post->ID ?>">
-    <div class="avatar-user">
+    <!--<div class="avatar-user">
         <a href="<?php the_permalink(); ?>">
             <?php echo et_get_avatar($post->post_author, 55) ?>
         </a>
-    </div>
+    </div>-->
     <div class="info-user">
         <?php forgivingheals_user_badge($post->post_author,true,true) ?>
         <ul class="info-review-story">
@@ -50,7 +50,7 @@
             <span class="time-categories">
                 <?php
                     $author = '<a href="'.get_author_posts_url( $story->post_author ).'">'.$story->author_name.'</a>';
-                    printf( __( 'Asked by %s %s in', ET_DOMAIN ), $author, $et_post_date);
+                    printf( __( 'Submitted by %s %s in', ET_DOMAIN ), $author, $et_post_date);
                 ?>
                 <a href="<?php echo $category_link ?>"><?php echo $category ?></a>.
             </span>

@@ -39,11 +39,12 @@ $parent_comments    = get_comments( array(
             <div class="row">
             	<div class="col-md-12">
                 	<div class="content-qna-wrapper">
+                        <!--
                         <div class="avatar-user">
                             <a href="<?php echo get_author_posts_url( $story->post_author ); ?>">
                                 <?php echo et_get_avatar($story->post_author, 55) ?>
                             </a>
-                        </div>
+                        </div>-->
                         <div class="info-user">
                             <!-- <span title="1" class="user-badge">Newbie</span> -->
                             <?php forgivingheals_user_badge($story->post_author, true, true) ?>
@@ -70,7 +71,7 @@ $parent_comments    = get_comments( array(
                             	<span class="time-categories">
                                     <?php
                                         $author = '<a href="'.get_author_posts_url( $story->post_author ).'">'.$story->author_name.'</a>';
-                                        printf( __( 'Asked by %s %s in', ET_DOMAIN ), $author, $et_post_date );
+                                        printf( __( 'Submitted by %s %s in', ET_DOMAIN ), $author, $et_post_date );
                                     ?>
                                      <a href="<?php echo $category_link ?>"><?php echo $category ?></a>.
                                 </span>

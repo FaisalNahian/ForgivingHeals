@@ -30,11 +30,11 @@
         <div class="row">
         	<div class="col-md-12">
             	<div class="content-qna-wrapper">
-                    <div class="avatar-user">
+                    <!--<div class="avatar-user">
                         <a href="<?php echo get_author_posts_url( $story->post_author ); ?>">
                             <?php echo et_get_avatar($reaction->post_author, 55) ?>
                         </a>
-                    </div>
+                    </div>-->
                     <div class="info-user">
                         <?php forgivingheals_user_badge($reaction->post_author, true, true) ?>
                     </div>

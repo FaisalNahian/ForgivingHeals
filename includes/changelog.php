@@ -450,7 +450,7 @@ function forgivingheals_list_changelog($args = array()) {
                     break;
 
                 case 'post_story':
-                    $text = __("You asked %s.", ET_DOMAIN);
+                    $text = __("You Submitted %s.", ET_DOMAIN);
                     $i  =   '<i class="fa fa-story-circle"></i>';
                     break;
 

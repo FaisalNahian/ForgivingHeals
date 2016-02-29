@@ -4,11 +4,12 @@
         <div class="row">
         	<div class="col-md-12">
             	<div class="content-qna-wrapper">
+                /*
                     <div class="avatar-user">
                         <a href="javascript:void(0)">
                             {{= avatar }}
                         </a>
-                    </div>
+                    </div> */
                     <div class="info-user">
                         {{= user_badge }}
                     </div>

@@ -38,7 +38,7 @@
                 </a>
                 <?php  forgivingheals_user_badge( $story->post_author ); ?>
                 <span class="story-time">
-                    <?php printf( __( 'Asked %s in', ET_DOMAIN ),$et_post_date); ?>
+                    <?php printf( __( 'Submitted %s in', ET_DOMAIN ),$et_post_date); ?>
                 </span>
 
                 <span class="story-category">

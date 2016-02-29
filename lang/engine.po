@@ -1306,7 +1306,7 @@ msgstr ""
 
 #: F:\www\wp\wp-content\themes\ForgivingHeals/includes/changelog.php:453
 #, php-format
-msgid "You asked %s."
+msgid "You Submitted %s."
 msgstr ""
 
 #: F:\www\wp\wp-content\themes\ForgivingHeals/includes/changelog.php:460
@@ -3020,7 +3020,7 @@ msgstr ""
 #: F:\www\wp\wp-content\themes\ForgivingHeals/mobile/single-story.php:73
 #: F:\www\wp\wp-content\themes\ForgivingHeals/mobile/template/story-loop.php:53
 #, php-format
-msgid "Asked by %s %s in"
+msgid "Submitted by %s %s in"
 msgstr ""
 
 #: F:\www\wp\wp-content\themes\ForgivingHeals/mobile/single-story.php:92
@@ -3082,7 +3082,7 @@ msgstr ""
 #: F:\www\wp\wp-content\themes\ForgivingHeals/template/pending-story-loop.php:40
 #: F:\www\wp\wp-content\themes\ForgivingHeals/template/story-loop.php:41
 #, php-format
-msgid "Asked %s in"
+msgid "Submitted %s in"
 msgstr ""
 
 #: F:\www\wp\wp-content\themes\ForgivingHeals/mobile/template/reaction-loop.php:61
